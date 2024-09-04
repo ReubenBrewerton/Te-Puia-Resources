@@ -1,23 +1,31 @@
-
-header {
-    background-image: url('shutterstock590350112.jpg');
-    background-repeat: no-repeat;
-    background-size: 100% 150%
-    
-}
 nav {
-    background-color:skyblue;
-    
+    background-color: #bd1e2b;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: large;
+    padding-left: 15px;
+}
+
+a {
+    color: aliceblue;
+    padding-left: 10px;
 }
 
 .topbar {
-    height: 348px;
+    background-image: url("shutterstock590350112.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -100px;
+    height: 400px;
 }
 
 #title {
-    color: rgb(189, 2, 2);
-    width: 40%;
+    color: rgb(189, 58, 58);
+    width: 20%;
     padding-left: 15px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding-right: -50px;
 }
 
 #logo {
@@ -26,7 +34,8 @@ nav {
 }
 
 main {
-    background-color: rgb(255, 255, 255);
+    background-color: aliceblue;
+    color:rgb(82, 21, 26);
 }
 
 li {
@@ -43,8 +52,10 @@ li {
 }
 
 #amazing {
-    width: 100%;
     text-align: center;
+    background-color: rgb(189, 30, 43);
+    padding: 15px; 
+    color: aliceblue;
 }
 
 .secondimage {
@@ -59,18 +70,19 @@ li {
 
 .firstsection {
     display: flex;
-    background-color: lightgreen;
     border-radius: 30px;
+    border-color: #bd1e2b;
 }
 
 .secondsection {
     display: flex;
-    background-color: aquamarine;
     border-radius: 30px;
 }
 
 #activitiestitle {
     text-align: center;
+    padding: 15px;
+    padding-bottom: 50px;
 }
 
 .thirdsection {
@@ -80,7 +92,6 @@ li {
     max-width: fit-content;
     align-items: center;
     justify-content: center;
-    align-items: center;
     padding-bottom: 100px;
 }
 
@@ -94,5 +105,58 @@ li {
 
 .footer {
     text-align: center;
-    background-color: rgb(134, 243, 207);
+    background-color: aliceblue;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.topbar2 {
+    background-image: url("Carving-School-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px -300px;
+    height: 400px;
+}
+
+h1 {
+    margin: 0px;
+}
+
+#woodimg {
+    padding: 70px; 
+}
+
+.woodsection {
+    display: flex;
+    align-items: center;
+}
+
+#woodparagraph {
+    font-size: large;
+}
+
+#historytitle {
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+#tourtitle {
+    text-align: center;
+    padding: 30px;
+}
+
+#videosection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#tourwriting {
+    padding-top: 50px;
+    text-align: center;
+    font-size: large;
+}
+
+body {
+    background-color: aliceblue;
 }
