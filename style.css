@@ -160,3 +160,34 @@ h1 {
 body {
     background-color: aliceblue;
 }
+
+.contact {
+    padding: 100px;
+    background-color: #d5faff;
+    display: flex;
+    flex-direction: row;
+    font-size: xx-large;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+#reason {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+#submit {
+    width: 100px;
+    height: 30px;
+}

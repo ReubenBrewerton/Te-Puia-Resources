@@ -4,13 +4,56 @@
     <link rel = "stylesheet" href = "style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Te Puia - About</title>
+    <title>Te Puia</title>
 </head>
 <body>
-    <nav>
-        <a href = "index.html">Home</a>
-        <a href = "about.html">About</a>
-        <a href = "contact.html">Contact</a>
-    </nav>
+    <div class = "topbar">
+        <header>
+            <nav>
+                <a href = "index.html">Home</a>
+                <a href = "about.html">About</a>
+                <a href = "contact.html">Contact</a>
+            </nav>
+            <img src = "Te-Puia-Logo-1237274183.png" id = "logo">
+            <h1 id = "title">Te Puia - Contact Us</h1>
+        </header>
+    </div>
+    <main>
+        <h1 id = "amazing">Get In Contact With Us</h1>
+        <div class = "contact">
+            <form action="contactpage">
+                <div>                
+                    <label for = "fname">First Name</label>
+                    <input type ="text" id = 'fname' name = 'firstname' placeholder="Your First Name...">
+                </div>
+                <div>
+                    <label for = "lname">Last Name</label>
+                    <input type ="text" id = 'lname' name = 'lastname' placeholder="Your Last Name...">
+                </div>
+                <div>
+                    <label for = "email">Your Email</label>
+                    <input type ="email" id = 'email' name = 'email' placeholder="Email...">
+                </div>
+                <div>
+                    <label for = "number">Your Phone Number</label>
+                    <input type="text" id = 'number' name = 'number' placeholder="Phone Number...">
+                </div>
+                <div>
+                    <label for = "subject">Your Reason For Contact</label>
+                </div>
+                <div>
+                    <textarea id = 'reason' type ="subject" name = 'subject' placeholder="Your Reason..." style = "height:200px"></textarea>
+                </div>
+                <div>
+                    <button type = "button" id = "submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer class = "footer">
+        <h3>Learn About Heritage</h3>
+        <p>TE PUIA | Email: reservations@tepuia.com | Ph: 07 348 9047</p>
+        <p><small>&copy;2024 Te Puia | Hemo Rd, Tihiotonga, Rotorua 3110, Bay of Plently, New Zealand</small></p>
+    </footer>
 </body>
 </html>
